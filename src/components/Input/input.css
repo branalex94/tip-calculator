@@ -1,0 +1,31 @@
+.main__input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  position: relative;
+}
+
+.input__icon-container {
+  position: absolute;
+  top: 65%;
+  bottom: 50%;
+  left: 5%;
+  margin: auto;
+}
+
+.input__label {
+  color: var(--Dark-grayish-cyan);
+}
+
+.main__input {
+  color: var(--Very-dark-cyan);
+  font-size: 1.5rem;
+  text-align: right;
+  padding: 0.4rem 1rem;
+  border: none;
+  background-color: var(--Very-light-grayish-cyan);
+}
+
+.main__input:focus {
+  outline: none;
+}

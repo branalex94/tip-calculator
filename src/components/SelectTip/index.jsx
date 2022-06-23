@@ -6,12 +6,14 @@ const TIPS = [5, 10, 15, 25, 50];
 
 export default function SelectTip() {
   return (
-    <section>
-      <h2>Select Tip %</h2>
-      {TIPS.map((tip, i) => (
-        <SingleTip tip={tip} key={i} />
-      ))}
-      <CustomTip />
+    <section className="section__select-tip">
+      <h2 className="section__title">Select Tip %</h2>
+      <div className="section__tips">
+        {TIPS.map((tip, i) => (
+          <SingleTip tip={tip} key={i} />
+        ))}
+        <CustomTip />
+      </div>
     </section>
   );
 }

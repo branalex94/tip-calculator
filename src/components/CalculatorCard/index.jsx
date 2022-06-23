@@ -6,9 +6,9 @@ import TipResult from "../TipResult";
 export default function CalculatorCard() {
   return (
     <main className="main__card">
-      <Input name="Bill" type="number" />
+      <Input name="Bill" type="number" icon="dollar" />
       <SelectTip />
-      <Input name="Number of People" type="number" />
+      <Input name="Number of People" type="number" icon="person" />
       <TipResult />
     </main>
   );

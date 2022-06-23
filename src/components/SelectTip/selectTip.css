@@ -1,0 +1,30 @@
+.section__select-tip {
+  margin: 2rem 0;
+}
+
+.section__title {
+  color: var(--Dark-grayish-cyan);
+  font-size: 1rem;
+}
+
+.section__tips {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.section__tips > button {
+  background-color: var(--Very-dark-cyan);
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  color: var(--White);
+  margin: 0 0.2rem;
+  transition: color, background-color 0.5s ease;
+}
+
+button.tip--active {
+  color: var(--Very-dark-cyan);
+  background-color: var(--Strong-cyan);
+}
