@@ -21,6 +21,7 @@
   font-size: 1.5rem;
   color: var(--White);
   margin: 0 0.2rem;
+  cursor: pointer;
   transition: color, background-color 0.5s ease;
 }
 
