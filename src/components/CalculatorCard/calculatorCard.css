@@ -4,3 +4,13 @@
   padding: 1.5rem;
   border-radius: 15px 15px 0 0;
 }
+
+@media (min-width: 1024px) {
+  .main__card {
+    display: grid;
+    max-width: 65vw;
+    border-radius: 15px;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+}

@@ -29,3 +29,9 @@ button.tip--active {
   color: var(--Very-dark-cyan);
   background-color: var(--Strong-cyan);
 }
+
+@media (min-width: 1024px) {
+  .section__tips {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}

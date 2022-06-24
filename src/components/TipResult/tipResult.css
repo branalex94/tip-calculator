@@ -40,3 +40,13 @@
 .result__btn:hover {
   cursor: pointer;
 }
+
+@media (min-width: 1024px) {
+  .main__result {
+    margin: 0;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
