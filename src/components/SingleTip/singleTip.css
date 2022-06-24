@@ -1,0 +1,9 @@
+.section__tip:hover {
+  background-color: var(--Light-grayish-cyan);
+  color: var(--Very-dark-cyan);
+}
+
+.tip--active {
+  background-color: var(--Strong-cyan);
+  color: var(--Very-dark-cyan);
+}

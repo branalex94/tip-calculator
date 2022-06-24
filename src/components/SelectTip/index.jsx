@@ -4,15 +4,15 @@ import CustomTip from "../CustomTip";
 
 const TIPS = [5, 10, 15, 25, 50];
 
-export default function SelectTip() {
+export default function SelectTip({ tipAmount, setTip }) {
   return (
     <section className="section__select-tip">
       <h2 className="section__title">Select Tip %</h2>
       <div className="section__tips">
         {TIPS.map((tip, i) => (
-          <SingleTip tip={tip} key={i} />
+          <SingleTip tip={tip} key={i} setTip={setTip} tipAmount={tipAmount} />
         ))}
-        <CustomTip />
+        <CustomTip setTip={setTip} />
       </div>
     </section>
   );

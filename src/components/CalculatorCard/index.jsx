@@ -17,7 +17,7 @@ export default function CalculatorCard() {
     <main className="main__card">
       <div className="main__left-container--desktop">
         <Input name="Bill" type="number" icon="dollar" setFunc={setBill} />
-        <SelectTip />
+        <SelectTip tipAmount={tip} setTip={setTip} />
         <Input
           name="Number of People"
           type="number"

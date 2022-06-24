@@ -1,4 +1,37 @@
+.custom-tip-container {
+  position: relative;
+}
+
+.custom-tip--active {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  color: var(--Very-dark-cyan);
+  font-size: 1.5rem;
+  text-align: right;
+  padding: 0.4rem 1rem;
+  border: none;
+  background-color: var(--Very-light-grayish-cyan);
+}
+
+.custom-tip--active:focus {
+  outline: 2px solid var(--Strong-cyan);
+  border-radius: 5px;
+}
+
 button.section__custom-tip {
   background-color: var(--Very-light-grayish-cyan);
   color: var(--Dark-grayish-cyan);
+  height: 100%;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+}
+
+.section__custom-tip:hover {
+  cursor: pointer;
 }
