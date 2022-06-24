@@ -1,9 +1,10 @@
 import "./singleTip.css";
 import { useEffect, useState } from "react";
 
-export default function SingleTip({ tipAmount, tip, setTip }) {
+export default function SingleTip({ tipAmount, tip, setTip, setCustomActive }) {
   const [active, setActive] = useState(false);
   const handleClick = () => {
+    setCustomActive(false);
     setTip(tip);
   };
 

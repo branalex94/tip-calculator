@@ -1,8 +1,7 @@
 import "./customTip.css";
 import { useRef, useState } from "react";
 
-export default function CustomTip({ setTip }) {
-  const [customActive, setCustomActive] = useState(false);
+export default function CustomTip({ setTip, customActive, setCustomActive }) {
   const customTipRef = useRef();
   const handleClick = () => {
     setTip(0);

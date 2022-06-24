@@ -8,12 +8,16 @@ const ICONS = {
   person: <Person />,
 };
 
-export default function Input({ name, type, icon, setFunc }) {
+export default function Input({ name, type, icon, setFunc, value }) {
   const [error, setError] = useState(false);
   const inputRef = useRef();
 
+  const handleClick = () => {
+    setFunc("");
+  };
+
   const handleChange = () => {
-    const input = Number(inputRef.current.value);
+    const input = inputRef.current.value;
     setFunc(input);
     if (input <= 0) setError(true);
     else setError(false);
@@ -31,6 +35,9 @@ export default function Input({ name, type, icon, setFunc }) {
         className={`main__input ${error ? "input__warning" : ""}`}
         onChange={handleChange}
         ref={inputRef}
+        placeholder="0"
+        value={value}
+        onClick={handleClick}
       />
       {error && <span className="input__warning-msg">Can't be zero</span>}
     </div>
