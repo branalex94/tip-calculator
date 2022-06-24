@@ -1,5 +1,4 @@
 import "./selectTip.css";
-import { useState } from "react";
 import SingleTip from "../SingleTip";
 import CustomTip from "../CustomTip";
 

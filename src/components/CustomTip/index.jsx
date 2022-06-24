@@ -1,5 +1,5 @@
 import "./customTip.css";
-import { useRef, useState } from "react";
+import { useRef } from "react";
 
 export default function CustomTip({ setTip, customActive, setCustomActive }) {
   const customTipRef = useRef();
