@@ -11,10 +11,10 @@ export default function Input({ name, type, icon }) {
   return (
     <div className="main__input-container">
       <div className="input__icon-container">{ICONS[icon]}</div>
-      <label htmlFor="input" className="input__label">
+      <label htmlFor={name} className="input__label">
         {name}
       </label>
-      <input type={type} id="input" className="main__input" />
+      <input type={type} id={name} className="main__input" />
     </div>
   );
 }
