@@ -8,7 +8,10 @@ function App() {
     <div className="App">
       <Header />
       <CalculatorCard />
-      <Attribution />
+      <Attribution
+        name="Brandon Aray"
+        url="https://www.frontendmentor.io/profile/branalex94"
+      />
     </div>
   );
 }
