@@ -45,6 +45,6 @@
 .input__warning-msg {
   position: absolute;
   right: 0;
-  bottom: 10%;
+  top: 0;
   color: #e66475;
 }
