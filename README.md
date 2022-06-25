@@ -32,7 +32,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: https://github.com/branalex94/tip-calculator
-- Live Site URL:
+- Live Site URL: https://branalex94.github.io/tip-calculator
 
 ## My process
 
@@ -61,7 +61,7 @@ const ICONS = {
 
 ### Continued development
 
-I'm planning on continuosly working on writing cleaner and more optimal code
+I'm planning on continuosly working on writing cleaner and more optimal code.
 
 ### Useful resources
 
